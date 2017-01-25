@@ -1,4 +1,4 @@
-FROM ruby:2.3.1
+FROM ruby:2.3.1-slim
 
 RUN gem install multibinder
 
