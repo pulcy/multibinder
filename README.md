@@ -1,6 +1,6 @@
 # Multibinder go client
 
-This library is used to connect to Github's (multibinder)[https://github.com/github/multibinder].
+This library is used to connect to Github's [multibinder](https://github.com/github/multibinder).
 
 ## Sample usage 
 
