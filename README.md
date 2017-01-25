@@ -31,3 +31,9 @@ docker run --net=host -v multibinder:/opt/multibinder multibinder
 docker run -v multibinder:/opt/multibinder mbexample -socket=/opt/multibinder/multibinder.sock 
 curl http://<dockerip>:8083
 ```
+
+Then to really test it:
+
+1. Kill the docker container running the example 
+2. Start another curl command (it will wait for a connection that is not yet handled)
+3. Restart the docker mbexample test and see the result appear from curl.
